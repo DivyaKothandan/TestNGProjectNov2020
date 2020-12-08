@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite"  parallel="none">
+<parameter name="browser" value="chrome"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>   
+      <class name="attributeTest.DataProviderTest"/>
+      
+     <!-- 
+        <class name="testNGbasicAnnotations.AnnotationsTest"/>
+      <class name="testNGbasicAnnotations.TestingAnnotationsTest"/>      
+      <class name="testNGbasicAnnotations.PriorityTest"/>
+      <class name="testNGbasicAnnotations.GroupingTesting"/>
+     <class name="testNGbasicAnnotations.DependsonMethodTest"/>
+      <class name="attributeTest.ParralleTest"/> 
+       <class name="attributeTest.ParameterizationTestWiki"/>-->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
